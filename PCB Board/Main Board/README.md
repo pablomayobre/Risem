@@ -12,4 +12,8 @@ This is the main board of the project **RISEM**. It has many modules that allow 
 
 *    *Programming Header:* The board allows to reprogram the PIC whenever there is a firmware update through a programming header.
 
+*    *Tension Regulator:* There is a 5V L7805 tension regulator in board. This allow to power the motors and the control board with a single supply.
+
 *    *GPIO:* The port A was left unused, this pins are free so they can be used for future extensions.
+
+**NOTE: The GPIO pins and the RESET buttons are hidden by the LCD Adapter, to use them they need to be connected through wires or other adapter board.**
