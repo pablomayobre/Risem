@@ -1,5 +1,5 @@
 <h1>Main Board</h1>
-<p> This is the main board of the project <b>RISEM</b>. It has many modules that allow for all the interactions that are needed. This modules are the following:
+<p> This is the main board of the project <b>RISEM</b>. It has many modules that allow for all the interactions that are needed. These modules are the following:
 <ul>
 <li><u>USB Connection:</u> The main board needs to be connected to the PC in order to get the Azimuth, Elevation and Frequency.
 <br>
@@ -7,7 +7,7 @@
 <br>
 <li><u>Serial Connection:</u> The frequency of the Yaesu FT-857D is corrected through the use of a Serial-CAT cable, which transforms the TTL CAT signals of the Yaesu into RS-232 USART signals, in the main board a MAX232 converts the RS-232 signals into TTL signals again, in order to connect the USART module in the PIC to the Yaesu CAT module.
 <br>
-<li><u>LCD Connection</u>: A requirement for this project is the use of an LCD, this project is designed to support characters displays (16x2 or 16x4) with 5x7 characters.
+<li><u>LCD Connection:</u> A requirement for this project is the use of an LCD, this project is designed to support characters displays (16x2 or 16x4) with 5x7 characters.
 <br>
 <li><u>Programming Header:</u> The board allows to reprogram the PIC whenever there is a firmware update through a programming header.
 <br>
