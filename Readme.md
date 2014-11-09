@@ -31,7 +31,7 @@ To reach our goal we intend to create a system composed of four main parts:
 
 [Gpredict](http://gpredict.oz9aec.net/) is a simple but really good software that can track satellites and calculate the azimuth, elevation and doppler effect correction in real time.
 
-Also it can send this data over a TCP/IP connection to the [Hamlib's](http://sourceforge.net/projects/hamlib/) rigctld and rotctld utilities. The protocol for this two softwares is available so we can easily replace them with our own software.
+Also it can send this data over a TCP/IP connection to the [Hamlib's](http://sourceforge.net/projects/hamlib/) rigctld and rotctld utilities. The [protocols](https://github.com/Positive07/Risem/tree/master/Docs) used by this two softwares is available so we can easily replace them with our own software.
 
 ##NOAA Satellites
 
