@@ -10,9 +10,8 @@ markdown: kramdown
 defaults:
   -
     scope:
-      path: "" # empty string for all files
+    path: "" # empty string for all files
     values:
-      title:
 
 description: Risem Antenna Rotators
 disqus: risem # add disqus short name here
