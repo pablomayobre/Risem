@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Risem
+      title:
 
 description: Risem Antenna Rotators
 disqus: risem # add disqus short name here
