@@ -22,18 +22,22 @@ local collisions = {
 				local total = tonumber(table.concat(states.AZ))/10
 				if total < 360 then
 					if x > 32 and x < 55 then
+						somethingchanged = true
 						if total + 100 <= 360 then
 							states.AZ[1] = states.AZ[1] + 1
 						end
 					elseif x > 69 and x < 92 then
+						somethingchanged = true
 						if total + 10 <= 360 then
 							states.AZ[2] = states.AZ[2] + 1
 						end					
 					elseif x > 106 and x < 129 then
+						somethingchanged = true
 						if total + 1 <= 360 then
 							states.AZ[3] = states.AZ[3] + 1
 						end	
 					elseif x > 157 and x < 180 then
+						somethingchanged = true
 						if total + .1 <= 360 then
 							states.AZ[4] = states.AZ[4] + 1
 						end	
@@ -55,18 +59,22 @@ local collisions = {
 				local total = tonumber(table.concat(states.AZ))/10
 				if total > 0 then
 					if x > 32 and x < 55 then
+						somethingchanged = true
 						if total - 100 >= 0 then
 							states.AZ[1] = states.AZ[1] - 1
 						end
 					elseif x > 69 and x < 92 then
+						somethingchanged = true
 						if total - 10 >= 0 then
 							states.AZ[2] = states.AZ[2] - 1
 						end					
 					elseif x > 106 and x < 129 then
+						somethingchanged = true
 						if total - 1 >= 0 then
 							states.AZ[3] = states.AZ[3] - 1
 						end	
 					elseif x > 157 and x < 180 then
+						somethingchanged = true
 						if total - .1 >= 0 then
 							states.AZ[4] = states.AZ[4] - 1
 						end	
@@ -93,14 +101,17 @@ local collisions = {
 				local total = tonumber(table.concat(states.EL))/10
 				if total < 90 then
 					if x > 263 and x < 286 then
+						somethingchanged = true
 						if total + 10 <= 90 then
 							states.EL[1] = states.EL[1] + 1
 						end
 					elseif x > 300 and x < 323 then
+						somethingchanged = true
 						if total + 1 <= 90 then
 							states.EL[2] = states.EL[2] + 1
 						end					
 					elseif x > 351 and x < 374 then
+						somethingchanged = true
 						if total + .1 <= 90 then
 							states.EL[3] = states.EL[3] + 1
 						end	
@@ -118,14 +129,17 @@ local collisions = {
 				local total = tonumber(table.concat(states.EL))/10
 				if total > 0 then
 					if x > 263 and x < 286 then
+						somethingchanged = true
 						if total - 10 >= 0 then
 							states.EL[1] = states.EL[1] - 1
 						end
 					elseif x > 300 and x < 323 then
+						somethingchanged = true
 						if total - 1 >= 0 then
 							states.EL[2] = states.EL[2] - 1
 						end					
 					elseif x > 351 and x < 374 then
+						somethingchanged = true
 						if total - .1 >= 0 then
 							states.EL[3] = states.EL[3] - 1
 						end	
@@ -148,38 +162,47 @@ local collisions = {
 				local total = tonumber(table.concat(states.FR))
 				if total < 999999999 then
 					if x > 32 and x < 55 then
+						somethingchanged = true
 						if total + 100000000 <= 999999999 then
 							states.FR[1] = states.FR[1] + 1
 						end	
 					elseif x > 69 and x < 92 then
+						somethingchanged = true
 						if total + 10000000 <= 999999999 then
 							states.FR[2] = states.FR[2] + 1
 						end	
 					elseif x > 106 and x < 129 then
+						somethingchanged = true
 						if total + 1000000 <= 999999999 then
 							states.FR[3] = states.FR[3] + 1
 						end	
 					elseif x > 143 and x < 166 then
+						somethingchanged = true
 						if total + 100000 <= 999999999 then
 							states.FR[4] = states.FR[4] + 1
 						end	
 					elseif x > 180 and x < 203 then
+						somethingchanged = true
 						if total + 10000 <= 999999999 then
 							states.FR[5] = states.FR[5] + 1
 						end	
 					elseif x > 217 and x < 240 then
+						somethingchanged = true
 						if total + 1000 <= 999999999 then
 							states.FR[6] = states.FR[6] + 1
 						end	
 					elseif x > 254 and x < 277 then
+						somethingchanged = true
 						if total + 100 <= 999999999 then
 							states.FR[7] = states.FR[7] + 1
 						end	
 					elseif x > 291 and x < 314 then
+						somethingchanged = true
 						if total + 10 <= 999999999 then
 							states.FR[8] = states.FR[8] + 1
 						end	
 					elseif x > 328 and x < 351 then
+						somethingchanged = true
 						if total + 1 <= 999999999 then
 							states.FR[9] = states.FR[9] + 1
 						end	
@@ -232,38 +255,47 @@ local collisions = {
 				local total = tonumber(table.concat(states.FR))
 				if total > 0 then
 					if x > 32 and x < 55 then
+						somethingchanged = true
 						if total - 100000000 >= 0 then
 							states.FR[1] = states.FR[1] - 1
 						end
 					elseif x > 69 and x < 92 then
+						somethingchanged = true
 						if total - 10000000 >= 0 then
 							states.FR[2] = states.FR[2] - 1
 						end
 					elseif x > 106 and x < 129 then
+						somethingchanged = true
 						if total - 1000000 >= 0 then
 							states.FR[3] = states.FR[3] - 1
 						end
 					elseif x > 143 and x < 166 then
+						somethingchanged = true
 						if total - 100000 >= 0 then
 							states.FR[4] = states.FR[4] - 1
 						end
 					elseif x > 180 and x < 203 then
+						somethingchanged = true
 						if total - 10000 >= 0 then
 							states.FR[5] = states.FR[5] - 1
 						end
 					elseif x > 217 and x < 240 then
+						somethingchanged = true
 						if total - 1000 >= 0 then
 							states.FR[6] = states.FR[6] - 1
 						end
 					elseif x > 254 and x < 277 then
+						somethingchanged = true
 						if total - 100 >= 0 then
 							states.FR[7] = states.FR[7] - 1
 						end	
 					elseif x > 291 and x < 314 then
+						somethingchanged = true
 						if total - 10 >= 0 then
 							states.FR[8] = states.FR[8] - 1
 						end	
 					elseif x > 328 and x < 351 then
+						somethingchanged = true
 						if total - 1 >= 0 then
 							states.FR[9] = states.FR[9] - 1
 						end	
@@ -315,6 +347,11 @@ local collisions = {
 			states.LOGO = states.LOGO + 1
 		else
 			states.LOGO = 0
+		end
+	end,
+	CONFIG = function (x,y,states)
+		if x > 505 and y > 6 and x < 535 and y < 26 then
+			func.close()
 		end
 	end
 }
